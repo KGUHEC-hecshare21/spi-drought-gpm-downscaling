@@ -1,0 +1,28 @@
+{
+    "train_period": {
+        "start": "2004-01-01",
+        "end": "2018-12-31"
+    },
+    "val_period": {
+        "start": "2019-01-01",
+        "end": "2021-12-31"
+    },
+    "test_period": {
+        "start": "2022-01-01",
+        "end": "2023-12-31"
+    },
+    "paths": {
+        "low_res_folder": "C:\\Yeonji\\GPM\\Input",
+        "high_res_folder": "C:\\Yeonji\\2025.01.Drought\\2004\\1.CoKriging(Daily)",
+        "dem_file": "C:\\Yeonji\\2025.01.Drought\\DEM_jeju.nc",
+        "output_folder": "rainfall_gan_logs_20250507_011514\\GAN_Output",
+        "model_dir": "rainfall_gan_logs_20250507_011514\\Models"
+    },
+    "training": {
+        "optimize_hyperparams": true,
+        "n_trials": 10,
+        "trial_epochs": 15,
+        "train_epochs": 50,
+        "resume_training": false
+    }
+}
