@@ -67,6 +67,11 @@ South Korea.
 pip install -r requirements.txt
 ```
 
+For GPU-based cGAN training, install PyTorch following the
+[official instructions](https://pytorch.org/get-started/locally/) for your CUDA
+version. The experiments in this study were tested with PyTorch 2.x and
+CUDA 12.1.
+
 ## Quick test
 
 A minimal quick-test example is provided to verify the installation and the

@@ -9,3 +9,7 @@ rasterio
 geopandas
 scikit-learn
 optuna
+torch
+tqdm
+jupyter
+notebook
