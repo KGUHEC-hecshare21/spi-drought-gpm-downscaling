@@ -107,7 +107,8 @@ providers' access policies (see *Code and data availability* below).
 
 See [`requirements.txt`](requirements.txt). Core dependencies: `numpy`,
 `pandas`, `scipy`, `xarray`, `netCDF4`, `rasterio`, `geopandas`,
-`scikit-learn`, `matplotlib`, `seaborn`.
+`scikit-learn`, `matplotlib`, `seaborn`, `optuna`, `torch`, `tqdm`,
+`jupyter`, and `notebook`.
 
 ## License
 
